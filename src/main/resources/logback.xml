@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds">
+  <include resource="org/springframework/boot/logging/logback/base.xml" />
+  <include file="logback.xml"/>
+
+  <!-- Log level -->
+  <logger name="org.springframework" level="INFO"/>
+  <!-- <logger name="org.monkiki" level="DEBUG"/> -->
+</configuration>
